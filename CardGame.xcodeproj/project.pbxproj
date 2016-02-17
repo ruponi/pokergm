@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		444A96041B8700420022FB1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A96031B8700420022FB1D /* main.m */; };
 		444A96071B8700420022FB1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A96061B8700420022FB1D /* AppDelegate.m */; };
-		444A960A1B8700420022FB1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A96091B8700420022FB1D /* ViewController.m */; };
+		444A960A1B8700420022FB1D /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A96091B8700420022FB1D /* StartViewController.m */; };
 		444A960D1B8700420022FB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A960B1B8700420022FB1D /* Main.storyboard */; };
 		444A960F1B8700420022FB1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444A960E1B8700420022FB1D /* Images.xcassets */; };
 		444A96121B8700420022FB1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444A96101B8700420022FB1D /* LaunchScreen.xib */; };
 		444A961E1B8700430022FB1D /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A961D1B8700430022FB1D /* CardGameTests.m */; };
+		444A96291B8704AF0022FB1D /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A96281B8704AF0022FB1D /* CardView.m */; };
+		444A962C1B877DE40022FB1D /* DeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A962B1B877DE40022FB1D /* DeckViewController.m */; };
+		444A96301B8788C90022FB1D /* CardCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A962F1B8788C90022FB1D /* CardCVCell.m */; };
+		444A96331B889C160022FB1D /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A96321B889C160022FB1D /* Hand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,23 @@
 		444A96031B8700420022FB1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		444A96051B8700420022FB1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		444A96061B8700420022FB1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		444A96081B8700420022FB1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		444A96091B8700420022FB1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		444A96081B8700420022FB1D /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		444A96091B8700420022FB1D /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		444A960C1B8700420022FB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		444A960E1B8700420022FB1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		444A96111B8700420022FB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		444A96171B8700420022FB1D /* CardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444A961C1B8700420022FB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		444A961D1B8700430022FB1D /* CardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameTests.m; sourceTree = "<group>"; };
+		444A96271B8704AF0022FB1D /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		444A96281B8704AF0022FB1D /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		444A962A1B877DE40022FB1D /* DeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckViewController.h; sourceTree = "<group>"; };
+		444A962B1B877DE40022FB1D /* DeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckViewController.m; sourceTree = "<group>"; };
+		444A962D1B87861F0022FB1D /* CardStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardStruct.h; sourceTree = "<group>"; };
+		444A962E1B8788C90022FB1D /* CardCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCVCell.h; sourceTree = "<group>"; };
+		444A962F1B8788C90022FB1D /* CardCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCVCell.m; sourceTree = "<group>"; };
+		444A96311B889C160022FB1D /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		444A96321B889C160022FB1D /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +96,18 @@
 			children = (
 				444A96051B8700420022FB1D /* AppDelegate.h */,
 				444A96061B8700420022FB1D /* AppDelegate.m */,
-				444A96081B8700420022FB1D /* ViewController.h */,
-				444A96091B8700420022FB1D /* ViewController.m */,
+				444A96081B8700420022FB1D /* StartViewController.h */,
+				444A96091B8700420022FB1D /* StartViewController.m */,
+				444A962A1B877DE40022FB1D /* DeckViewController.h */,
+				444A962B1B877DE40022FB1D /* DeckViewController.m */,
 				444A960B1B8700420022FB1D /* Main.storyboard */,
+				444A962D1B87861F0022FB1D /* CardStruct.h */,
+				444A96271B8704AF0022FB1D /* CardView.h */,
+				444A96281B8704AF0022FB1D /* CardView.m */,
+				444A962E1B8788C90022FB1D /* CardCVCell.h */,
+				444A962F1B8788C90022FB1D /* CardCVCell.m */,
+				444A96311B889C160022FB1D /* Hand.h */,
+				444A96321B889C160022FB1D /* Hand.m */,
 				444A960E1B8700420022FB1D /* Images.xcassets */,
 				444A96101B8700420022FB1D /* LaunchScreen.xib */,
 				444A96011B8700420022FB1D /* Supporting Files */,
@@ -219,8 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				444A960A1B8700420022FB1D /* ViewController.m in Sources */,
+				444A960A1B8700420022FB1D /* StartViewController.m in Sources */,
+				444A96331B889C160022FB1D /* Hand.m in Sources */,
 				444A96071B8700420022FB1D /* AppDelegate.m in Sources */,
+				444A96301B8788C90022FB1D /* CardCVCell.m in Sources */,
+				444A96291B8704AF0022FB1D /* CardView.m in Sources */,
+				444A962C1B877DE40022FB1D /* DeckViewController.m in Sources */,
 				444A96041B8700420022FB1D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

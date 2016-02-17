@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface StartViewController : UIViewController
+@property(nonatomic,weak) IBOutlet UITextField *tf_username;
 
 
 @end
